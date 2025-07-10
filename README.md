@@ -1,8 +1,8 @@
-# Documenta - Conversor de Documentos v3.0
+# Documenta - Conversor de Documentos v4.0
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flet](https://img.shields.io/badge/Flet-0.20+-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 ## 📋 Descrição
 
@@ -24,7 +24,9 @@
 
 ### 🛡️ Tratamento de Erros
 - **Detecção de arquivos protegidos** por senha
+- **Separação automática** de arquivos com senha em pasta específica
 - **Relatórios detalhados** de erros e arquivos não processados
+- **Arquivo de log .txt** com lista completa de arquivos que falharam e motivos
 - **Logs completos** do processo de conversão
 - **Recuperação automática** de falhas
 
@@ -33,6 +35,12 @@
 - **Tema escuro** elegante e profissional
 - **Feedback em tempo real** do progresso
 - **Controles intuitivos** para iniciar/parar conversão
+
+### ⚡ Melhorias de Produtividade
+- **Conversão direta para PDF**: Elimina etapas manuais do processo anterior
+- **Padronização automática**: Arquivos já saem prontos para microfilmagem
+- **Processo otimizado**: Reduz significativamente o tempo de trabalho
+- **Automação completa**: Substitui o sistema Adobe antigo e processos manuais
 
 ## 🚀 Instalação
 
@@ -234,9 +242,24 @@ Contribuições são bem-vindas! Por favor:
 
 ## 🔄 Histórico de Versões
 
-- **v3.0**: Interface moderna, controle de tamanho, tratamento avançado de erros
+- **v4.0**: Interface moderna, controle de tamanho, tratamento avançado de erros
+- **v3.0**: Primeira versão usada em produção para converter arquivos em .TIFF
 - **v2.0**: Conversão básica de documentos
 - **v1.0**: Versão inicial
+
+### Evolução do Projeto
+
+**Versão Anterior à v3.0.0:**
+- Primeira versão em produção que convertia arquivos para formato .TIFF
+- Após a conversão, os usuários precisavam usar um sistema Adobe antigo para converter os arquivos TIFF para PDF
+- Processo manual e demorado que exigia múltiplas etapas
+
+**Melhorias Implementadas (v4.0+):**
+- **Conversão direta para PDF**: Elimina a necessidade do sistema Adobe antigo
+- **Padronização para microfilmagem**: Arquivos já saem no formato padrão necessário
+- **Separação de arquivos protegidos**: Arquivos com senha são automaticamente movidos para pasta separada para verificação manual
+- **Relatório de erros**: Geração automática de arquivo .txt com lista detalhada de arquivos que falharam na conversão e seus respectivos motivos
+- **Processo automatizado**: Reduz significativamente o tempo de processamento e elimina etapas manuais
 
 ---
 
